@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" description="width=device-width, initial-scale=1.0">
+        <title>OnDeck Landing Page</title>
+        <!-- Font google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="contenedor">
+                <div class="barra">
+                    <div class="imagen">
+                        <img src="Assets/Logo.svg" loading="lazy" alt="logo ondeck">
+                    </div>
+
+                    <button type="button" id="btn-open">
+                        <img src="Assets/Menu.svg" loading="lazy" alt="icono open menu">
+                    </button>
+
+                    <nav class="navegacion" id="navbar">
+                        <ul>
+                            <li class="nav-link" id="products">
+                                <a href="#" id="btn-product">Products</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">Challenges</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">Resources</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">Other Links</a>
+                            </li>
+                        </ul>
+                    </nav><!-- nav principal -->
+
+                    <nav class="navegacion nav-sign">
+                        <ul>
+                            <li class="nav-link">
+                                <a href="#">Sign In</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#" class="boton">Try for free</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div><!-- barra -->
+            </div><!-- contenedor -->
+        </header>
+
+        <section class="hero">
+            <div class="contenedor">
+                <div class="grid-hero">
+                    <div class="column column-text">
+                        <h1 class="hero-title">Ondeck is your remote <span>conference calling tool</span></h1>
+                        <p>Ondeck is a service that allows you to create beautiful, online, and encrypted video calls fo you and your remote team.</p>
+                        <a href="#" class="boton">Try for free</a>
+                        <p class="flex">
+                            5.0 rating based on reviews from:
+                            <span>
+                                <img src="Assets/Capterra Logo.svg" loading="lazy" alt="imagen icon">
+                                <img src="Assets/AlternativeTo Logo.svg" loading="lazy" alt="imagen icon">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="column column-display">
+                        <picture>
+                            <img src="Assets/Hero Image.png" loading="lazy" alt="imagen hero">
+                        </picture>
+                    </div>
+                </div>
+
+                <p class="text-center">Trusted by 3+ million people at companies like</p>
+                <div class="grid-marcas">
+                    <picture>
+                        <img src="Assets/Netflix Logo.svg" loading="lazy" alt="imagen marca">
+                    </picture>
+                    <picture>
+                        <img src="Assets/Shopify Logo.svg" loading="lazy" alt="imagen marca">
+                    </picture>
+                    <picture>
+                        <img src="Assets/Spotify Logo.svg" loading="lazy" alt="imagen marca">
+                    </picture>
+                    <picture>
+                        <img src="Assets/Walmart Logo.svg" loading="lazy" alt="imagen marca">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <script src="js/app.js" defer></script>
+    </body>
+</html>
+
